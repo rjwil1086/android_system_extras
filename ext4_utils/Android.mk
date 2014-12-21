@@ -82,8 +82,6 @@ LOCAL_SHARED_LIBRARIES := \
     libselinux \
     libz
 include $(BUILD_EXECUTABLE)
-
-
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := ext2simg.c
 LOCAL_MODULE := ext2simg
